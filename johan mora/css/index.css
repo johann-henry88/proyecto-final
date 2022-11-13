@@ -1,9 +1,10 @@
+
 :root {
-    scroll-behavior: smooth;
-    --primary-theme-color: #20232a;
+  scroll-behavior: smooth;
+  --primary-theme-color: #20232a;
   --secondary-theme-color: #282c34;
   --primary-text-color: #fff;
-  --secondary-text-color: #eee;
+  --secondary-text-color: #aeaeae;
   --reverse-primary-text-color: #000;
   --primary-invalid-color: crimson;
   --primary-shadow-color: #20232a80;
@@ -20,4 +21,10 @@
   --max-width-container: 640px;
   --primary-border-radius: 0.5rem;
 }
-@import "../assets/module/variables.css"
+
+.body {
+  background-color: var(--primary-theme-color);
+  color: var(--primary-text-color);
+  margin: 0;
+  font-family: var(--primary-font-family);
+}
